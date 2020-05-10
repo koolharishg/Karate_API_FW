@@ -1,0 +1,24 @@
+21:31:27.751 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+21:31:28.788 request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 45
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: restful-booker.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_202)
+{"username":"admin","password":"password123"}
+
+21:31:29.996 response time in milliseconds: 1205.57
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 06 May 2020 16:01:30 GMT
+1 < Etag: W/"1b-5ahAj/urElo4TlDpLW9K1jekuOI"
+1 < Server: Cowboy
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"token":"3402eeab674a6e2"}
+
+ostConnectException: Connect to restful-booker.herokupp.com:443 [restful-booker.herokupp.com/95.211.117.215] failed: Connection timed out: connect
